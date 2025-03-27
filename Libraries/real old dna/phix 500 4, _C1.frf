@@ -1,0 +1,3551 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RawDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TimeStep>250</TimeStep>
+  <Comment/>
+  <SampleId>97da0bb4a45e9749</SampleId>
+  <SampleName/>
+  <ProjectName>phix 500 4</ProjectName>
+  <Type>AllelicLadder</Type>
+  <Title>_C1</Title>
+  <RunStarted>2025-01-13T14:23:34.8896344Z</RunStarted>
+  <DataCollectionStarted>2025-01-13T17:31:37.7572715+03:00</DataCollectionStarted>
+  <RunStopped>2025-01-13T14:33:18.6370742Z</RunStopped>
+  <DataCollectionStopped>2025-01-13T17:33:18.6370742+03:00</DataCollectionStopped>
+  <DataDelay>100</DataDelay>
+  <CapillaryMachine>true</CapillaryMachine>
+  <DownsamplingFactor>1</DownsamplingFactor>
+  <ElectrophoresisVoltage>15000</ElectrophoresisVoltage>
+  <VoltageGoingUpSec>5</VoltageGoingUpSec>
+  <InjectionTime>5</InjectionTime>
+  <InjectionVoltage>3000</InjectionVoltage>
+  <Lane>1</Lane>
+  <LengthToDetector>25</LengthToDetector>
+  <LaserPower>110</LaserPower>
+  <Columns>1</Columns>
+  <Column>5</Column>
+  <Capillaries>96</Capillaries>
+  <PlateSize>96</PlateSize>
+  <PixelBinSize>3</PixelBinSize>
+  <PrephoresisTime>10</PrephoresisTime>
+  <PrephoresisVoltage>15000</PrephoresisVoltage>
+  <RunTemperature>45</RunTemperature>
+  <ContainerIdentifier/>
+  <PlateOwner>IAI RAS</PlateOwner>
+  <DyeSetName>NonDenaturing2</DyeSetName>
+  <GelType>ПДМА-4</GelType>
+  <InstrumentName>Нанофор 5</InstrumentName>
+  <InstrumentSerialNumber>1022352022</InstrumentSerialNumber>
+  <InstrumentModelNumber>96</InstrumentModelNumber>
+  <Aperture>0</Aperture>
+  <ObjectiveTransitionFactor>0</ObjectiveTransitionFactor>
+  <RunName>ND_DNA_25</RunName>
+  <PolymerLotNumber>27,12,24,2</PolymerLotNumber>
+  <PolymerSetupDate>2025-01-10T13:17:29</PolymerSetupDate>
+  <DataCollectionSoftVersion>1.0.1.3011</DataCollectionSoftVersion>
+  <FirmwareVersion>147|11|122</FirmwareVersion>
+  <TubePosition>C1</TubePosition>
+  <User>user</User>
+  <RunsCapillaryArray>8</RunsCapillaryArray>
+  <CapillaryArraySerialNumber>16</CapillaryArraySerialNumber>
+  <CapillaryArrayName>25</CapillaryArrayName>
+  <CapillaryArraySetupDate>2025-01-13T13:47:52.6524936+03:00</CapillaryArraySetupDate>
+  <PlasticType>Стрип(SSI-3111)</PlasticType>
+  <HighLifting>false</HighLifting>
+  <StandardChannel>4</StandardChannel>
+  <Parameters>
+    <AnalysisFrom xsi:nil="true"/>
+    <AnalysisTo xsi:nil="true"/>
+    <UseMatrix>false</UseMatrix>
+    <UsePanelShutterRatio>true</UsePanelShutterRatio>
+    <MaxPeakWidth>1.5</MaxPeakWidth>
+    <MaxExpectedAlleles>2</MaxExpectedAlleles>
+    <MinPeakHeightRatio>0.7</MinPeakHeightRatio>
+    <CutOffValue>0</CutOffValue>
+    <ApplyN>false</ApplyN>
+    <NQualityValue>0</NQualityValue>
+    <Method>0</Method>
+    <AdditionalPeakParams>
+      <ExpectedPeakWidthSec>0</ExpectedPeakWidthSec>
+      <ExpectedPeakSpacingSec>0</ExpectedPeakSpacingSec>
+      <ExpectedPeak1TimeSec>0</ExpectedPeak1TimeSec>
+    </AdditionalPeakParams>
+    <InvanData/>
+    <MinimumAmplitude>
+      <double>500</double>
+      <double>500</double>
+      <double>500</double>
+      <double>500</double>
+      <double>500</double>
+      <double>500</double>
+    </MinimumAmplitude>
+    <MinimumPeakWidth>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinimumPeakWidth>
+    <CutOffValues>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </CutOffValues>
+    <MinusARatios>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusARatios>
+    <MinusADistanciesFrom>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusADistanciesFrom>
+    <MinusADistanciesTo>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusADistanciesTo>
+    <MinusShutterRatios>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusShutterRatios>
+    <MinusShutterDistanciesFrom>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusShutterDistanciesFrom>
+    <MinusShutterDistanciesTo>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </MinusShutterDistanciesTo>
+    <Matrix>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+      <ArrayOfDouble>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+        <double>0</double>
+      </ArrayOfDouble>
+    </Matrix>
+  </Parameters>
+  <SizeStandard><Title>ND_Standard</Title><Description>Standard for ND</Description><Sizes>
+      <double Concentration="0.001778" ReleaseTime="00:01:26">100</double>
+      <double Concentration="0.001369" ReleaseTime="00:01:53">150</double>
+      <double Concentration="0.00225" ReleaseTime="00:02:24">200</double>
+      <double Concentration="0.00199" ReleaseTime="00:02:52">250</double>
+      <double Concentration="0.001728" ReleaseTime="00:03:16">300</double>
+      <double Concentration="0.001393" ReleaseTime="00:03:53">400</double>
+      <double Concentration="0.001686" ReleaseTime="00:04:19">500</double>
+      <double Concentration="0.00129" ReleaseTime="00:04:32">600</double>
+      <double Concentration="0.001011" ReleaseTime="00:04:43">700</double>
+      <double Concentration="0.001289" ReleaseTime="00:05:03">1000</double>
+      <double Concentration="0.001053" ReleaseTime="00:05:25">1500</double>
+    </Sizes></SizeStandard>
+<ExperimentParams>
+    <Temperature2C>45</Temperature2C>
+    <HighVoltageStepDuration>1</HighVoltageStepDuration>
+    <HighVoltageStep>3000</HighVoltageStep>
+    <SyringeSpeed>4</SyringeSpeed>
+    <SyringeSteps>300</SyringeSteps>
+    <StepsAfterPhoresis>20</StepsAfterPhoresis>
+    <OnThermostat>true</OnThermostat>
+    <OnThermostat2>true</OnThermostat2>
+  </ExperimentParams>
+  <Matrix>
+    <ArrayOfDouble>
+      <double>1</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>1</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>1</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>1</double>
+    </ArrayOfDouble>
+  </Matrix>
+  <DyesWavelength>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+    <short>0</short>
+  </DyesWavelength>
+  <DyeNames>
+    <string>Dye</string>
+    </DyeNames>
+  <CameraWindows>
+    <DyeWindow>
+      <X1>160</X1>
+      <X2>300</X2>
+      <Y1>151</Y1>
+      <Y2>12</Y2>
+    </DyeWindow>
+    </CameraWindows>
+  <SpectrCalibration>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+    <ArrayOfDouble>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+      <double>0</double>
+    </ArrayOfDouble>
+  </SpectrCalibration>
+  <SpectrCalibrationDate>0001-01-01T00:00:00</SpectrCalibrationDate>
+  <Data>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4297371" T2="45.13356">
+      <Data>
+        <int>81182</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81244</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81638</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81988</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81769</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81653</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>82085</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>82497</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4256554" T2="45.13356">
+      <Data>
+        <int>81803</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>83190</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>82444</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>81962</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>83164</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>83314</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>84023</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>83395</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="167" T1="59.4134178" T2="45.13152">
+      <Data>
+        <int>83441</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>83106</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>84356</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>85444</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>84495</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>84056</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>85015</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>85580</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.42362" T2="45.13152">
+      <Data>
+        <int>84844</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>85048</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>85490</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>85593</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>85446</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>85543</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>86232</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4093361" T2="45.1274376">
+      <Data>
+        <int>87034</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4950142" T2="45.1376381">
+      <Data>
+        <int>87511</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4950142" T2="45.1376381">
+      <Data>
+        <int>88096</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4950142" T2="45.1376381">
+      <Data>
+        <int>86669</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.4950142" T2="45.1376381">
+      <Data>
+        <int>87154</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>86719</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>88458</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>87936</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>87600</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>87650</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="167" T1="59.40118" T2="45.1254">
+      <Data>
+        <int>87873</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88508</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88305</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88828</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88354</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88511</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88883</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>88826</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.3930168" T2="45.119278">
+      <Data>
+        <int>89130</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.3930168" T2="45.119278">
+      <Data>
+        <int>89126</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.3930168" T2="45.119278">
+      <Data>
+        <int>89418</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.3930168" T2="45.119278">
+      <Data>
+        <int>89445</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>89832</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>90187</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>90315</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.405262" T2="45.11724">
+      <Data>
+        <int>90858</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.405262" T2="45.11724">
+      <Data>
+        <int>91456</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="167" T1="59.405262" T2="45.11724">
+      <Data>
+        <int>91871</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.4032173" T2="45.12948">
+      <Data>
+        <int>91394</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.4032173" T2="45.12948">
+      <Data>
+        <int>92210</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.4032173" T2="45.12948">
+      <Data>
+        <int>93246</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>95064</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.3787422" T2="45.12132">
+      <Data>
+        <int>105854</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.39098" T2="45.1152">
+      <Data>
+        <int>97671</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.39098" T2="45.1152">
+      <Data>
+        <int>96611</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="167" T1="59.39098" T2="45.1152">
+      <Data>
+        <int>97372</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.32162" T2="45.11724">
+      <Data>
+        <int>99211</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.32162" T2="45.11724">
+      <Data>
+        <int>97537</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.32162" T2="45.11724">
+      <Data>
+        <int>97724</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.3889351" T2="45.1254">
+      <Data>
+        <int>98122</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.3889351" T2="45.1254">
+      <Data>
+        <int>98208</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.3889351" T2="45.1254">
+      <Data>
+        <int>100287</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4460564" T2="45.1254">
+      <Data>
+        <int>103551</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4460564" T2="45.1254">
+      <Data>
+        <int>103663</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.42362" T2="45.1152">
+      <Data>
+        <int>102363</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.42362" T2="45.1152">
+      <Data>
+        <int>105326</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.42362" T2="45.1152">
+      <Data>
+        <int>103415</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.11316">
+      <Data>
+        <int>102940</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.11316">
+      <Data>
+        <int>102602</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.11316">
+      <Data>
+        <int>103193</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.4134178" T2="45.12132">
+      <Data>
+        <int>104357</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.4134178" T2="45.12132">
+      <Data>
+        <int>105217</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>105369</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>106471</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.3420219" T2="45.119278">
+      <Data>
+        <int>105495</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.4277" T2="45.1152">
+      <Data>
+        <int>105512</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.4277" T2="45.1152">
+      <Data>
+        <int>104532</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="167" T1="59.4277" T2="45.1152">
+      <Data>
+        <int>102897</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>101334</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>101851</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>103492</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>100616</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>100887</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>101137</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>102202</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.97852" U="15008" I="166.27" T1="59.4562569" T2="45.10704">
+      <Data>
+        <int>101866</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101400</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101624</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101820</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>102199</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>102143</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101480</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>102881</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101688</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>102261</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98056" U="15008" I="166.27" T1="59.4583" T2="45.10296">
+      <Data>
+        <int>101531</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>101076</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>101011</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>99977</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>100488</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>100766</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>100210</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>102106</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>101588</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>102785</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>107584</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>109738</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.1152">
+      <Data>
+        <int>112394</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4419746" T2="45.1009178">
+      <Data>
+        <int>129127</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4419746" T2="45.1009178">
+      <Data>
+        <int>151968</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4419746" T2="45.1009178">
+      <Data>
+        <int>163103</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4419746" T2="45.1009178">
+      <Data>
+        <int>159463</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4419746" T2="45.1009178">
+      <Data>
+        <int>196525</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.3971" T2="45.09888">
+      <Data>
+        <int>525388</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.3971" T2="45.09888">
+      <Data>
+        <int>1082063</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.3971" T2="45.09888">
+      <Data>
+        <int>1521858</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.10296">
+      <Data>
+        <int>1985280</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.10296">
+      <Data>
+        <int>2073512</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.10296">
+      <Data>
+        <int>1943257</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.38486" T2="45.10296">
+      <Data>
+        <int>1706726</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>1439200</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>1177033</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>923511</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>791986</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>694661</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>557133</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>425832</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>345379</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>290841</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>248863</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>223018</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>204075</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>188428</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>179035</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>175077</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>176936</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.41138" T2="45.10704">
+      <Data>
+        <int>185410</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>196406</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>222118</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>301143</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>489108</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>884364</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>1260991</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>1447008</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>1460814</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>1341553</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>1096145</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9826" U="15008" I="166.27" T1="59.4175" T2="45.1009178">
+      <Data>
+        <int>800760</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>578620</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>426392</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>329828</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>271319</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>234856</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>212014</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>196212</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.984642" U="15008" I="166.27" T1="59.3828163" T2="45.09072">
+      <Data>
+        <int>185973</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4460564" T2="45.08868">
+      <Data>
+        <int>177824</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4460564" T2="45.08868">
+      <Data>
+        <int>170556</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4460564" T2="45.08868">
+      <Data>
+        <int>165087</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4460564" T2="45.08868">
+      <Data>
+        <int>164499</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4460564" T2="45.08868">
+      <Data>
+        <int>161725</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.43382" T2="45.09888">
+      <Data>
+        <int>163149</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.43382" T2="45.09888">
+      <Data>
+        <int>167499</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.43382" T2="45.09888">
+      <Data>
+        <int>178909</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.43382" T2="45.09888">
+      <Data>
+        <int>224681</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.45422" T2="45.09276">
+      <Data>
+        <int>336006</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.45422" T2="45.09276">
+      <Data>
+        <int>574093</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.45422" T2="45.09276">
+      <Data>
+        <int>980708</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.45422" T2="45.09276">
+      <Data>
+        <int>1341021</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.45422" T2="45.09276">
+      <Data>
+        <int>1556054</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.3399773" T2="45.0948">
+      <Data>
+        <int>1720376</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.3399773" T2="45.0948">
+      <Data>
+        <int>1768611</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.3399773" T2="45.0948">
+      <Data>
+        <int>1705580</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.3971" T2="45.08256">
+      <Data>
+        <int>1554497</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.3971" T2="45.08256">
+      <Data>
+        <int>1315013</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.3971" T2="45.08256">
+      <Data>
+        <int>1048917</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>807550</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>615908</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>478278</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>382600</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>315970</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>273347</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>247390</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98668" U="15008" I="166.27" T1="59.4277" T2="45.0846">
+      <Data>
+        <int>233914</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>221815</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>212045</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>204445</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>200173</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>199396</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>209752</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>245876</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>321724</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>486350</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>776138</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1095678</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1299246</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1369096</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1358461</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1237698</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>1037407</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>819846</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>640875</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>503323</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>404016</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.47054" T2="45.0846">
+      <Data>
+        <int>407923</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>284974</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>258513</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>232471</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>219094</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>209237</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>204629</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.98872" U="15008" I="166.27" T1="59.4154549" T2="45.07848">
+      <Data>
+        <int>199883</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.4175" T2="45.08868">
+      <Data>
+        <int>205271</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.4175" T2="45.08868">
+      <Data>
+        <int>219319</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.4175" T2="45.08868">
+      <Data>
+        <int>261636</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.3971" T2="45.074398">
+      <Data>
+        <int>352855</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.3971" T2="45.074398">
+      <Data>
+        <int>531458</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.3971" T2="45.074398">
+      <Data>
+        <int>814314</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99076" U="15008" I="166.27" T1="59.3971" T2="45.074398">
+      <Data>
+        <int>1102647</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="150.04" T1="59.4399376" T2="45.07644">
+      <Data>
+        <int>1315525</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="150.04" T1="59.4399376" T2="45.07644">
+      <Data>
+        <int>1416649</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="150.04" T1="59.4399376" T2="45.07644">
+      <Data>
+        <int>1393506</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>1279861</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>1089905</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>888846</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>706041</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>557175</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>447932</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>367856</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.9928" U="15008" I="149.3" T1="59.4684944" T2="45.074398">
+      <Data>
+        <int>314611</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.09" T1="59.3726158" T2="45.07236">
+      <Data>
+        <int>278725</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.09" T1="59.3726158" T2="45.07236">
+      <Data>
+        <int>253896</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.09" T1="59.3726158" T2="45.07236">
+      <Data>
+        <int>239052</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.82" T1="59.4277" T2="45.07236">
+      <Data>
+        <int>225996</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.82" T1="59.4277" T2="45.07236">
+      <Data>
+        <int>218098</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.82" T1="59.4277" T2="45.07236">
+      <Data>
+        <int>211306</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="148.56" T1="59.5194969" T2="45.07032">
+      <Data>
+        <int>202517</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="148.56" T1="59.5194969" T2="45.07032">
+      <Data>
+        <int>194411</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="148.56" T1="59.5194969" T2="45.07032">
+      <Data>
+        <int>191805</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.386898" T2="45.08052">
+      <Data>
+        <int>187070</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.386898" T2="45.08052">
+      <Data>
+        <int>183194</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.386898" T2="45.08052">
+      <Data>
+        <int>181901</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="144.87" T1="59.4379" T2="45.07644">
+      <Data>
+        <int>180546</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="144.87" T1="59.4379" T2="45.07644">
+      <Data>
+        <int>177819</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="144.87" T1="59.4379" T2="45.07644">
+      <Data>
+        <int>179853</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.4460564" T2="45.06828">
+      <Data>
+        <int>177469</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.4460564" T2="45.06828">
+      <Data>
+        <int>177145</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.4460564" T2="45.06828">
+      <Data>
+        <int>177825</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.3787422" T2="45.06828">
+      <Data>
+        <int>178941</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="145.61" T1="59.3787422" T2="45.06828">
+      <Data>
+        <int>182067</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.366497" T2="45.07236">
+      <Data>
+        <int>197135</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.366497" T2="45.07236">
+      <Data>
+        <int>234981</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.366497" T2="45.07236">
+      <Data>
+        <int>311544</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.37058" T2="45.07644">
+      <Data>
+        <int>465245</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.37058" T2="45.07644">
+      <Data>
+        <int>698040</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="145.61" T1="59.37058" T2="45.07644">
+      <Data>
+        <int>947016</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.82" T1="59.3991356" T2="45.074398">
+      <Data>
+        <int>1136555</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99484" U="15008" I="147.82" T1="59.3991356" T2="45.074398">
+      <Data>
+        <int>1228111</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="148.56" T1="59.4358559" T2="45.0642">
+      <Data>
+        <int>1194671</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="148.56" T1="59.4358559" T2="45.0642">
+      <Data>
+        <int>1060417</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="148.56" T1="59.4358559" T2="45.0642">
+      <Data>
+        <int>862445</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.82" T1="59.4827766" T2="45.07032">
+      <Data>
+        <int>683566</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.82" T1="59.4827766" T2="45.07032">
+      <Data>
+        <int>539153</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.82" T1="59.4827766" T2="45.07032">
+      <Data>
+        <int>432679</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>364788</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>315703</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>286251</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>263608</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>252631</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>241474</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>232947</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>227044</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>224566</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>224105</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>224918</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>243035</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>279401</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>356178</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>502371</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>743606</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1026210</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1278060</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1448531</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1492821</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1424123</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1256812</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>1028022</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.39506" T2="45.074398">
+      <Data>
+        <int>823731</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>672689</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>552597</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>488253</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>427072</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>413879</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>462946</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>589143</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>822419</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="147.09" T1="59.3971" T2="45.06012">
+      <Data>
+        <int>1188710</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="146.35" T1="59.45422" T2="45.05808">
+      <Data>
+        <int>1571829</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="146.35" T1="59.45422" T2="45.05808">
+      <Data>
+        <int>1886648</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="146.35" T1="59.45422" T2="45.05808">
+      <Data>
+        <int>2080680</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99688" U="15008" I="146.35" T1="59.45422" T2="45.05808">
+      <Data>
+        <int>2154638</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="146.35" T1="59.4521751" T2="45.05196">
+      <Data>
+        <int>2066068</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="146.35" T1="59.4521751" T2="45.05196">
+      <Data>
+        <int>1831269</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="146.35" T1="59.4521751" T2="45.05196">
+      <Data>
+        <int>1559809</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="146.35" T1="59.4521751" T2="45.05196">
+      <Data>
+        <int>1299169</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="147.09" T1="59.4175" T2="45.05196">
+      <Data>
+        <int>1112049</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="147.09" T1="59.4175" T2="45.05196">
+      <Data>
+        <int>1015416</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="147.09" T1="59.4175" T2="45.05196">
+      <Data>
+        <int>1032199</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="44.99892" U="15008" I="147.09" T1="59.4175" T2="45.05196">
+      <Data>
+        <int>1166618</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.45422" T2="45.04992">
+      <Data>
+        <int>1351753</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.45422" T2="45.04992">
+      <Data>
+        <int>1499406</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.45422" T2="45.04992">
+      <Data>
+        <int>1594639</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.45422" T2="45.04992">
+      <Data>
+        <int>1567624</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>1434552</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>1247898</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>1031178</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>855050</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>713472</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>607928</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="147.09" T1="59.36446" T2="45.06012">
+      <Data>
+        <int>533388</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.4093361" T2="45.04584">
+      <Data>
+        <int>483357</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.4093361" T2="45.04584">
+      <Data>
+        <int>449756</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.4093361" T2="45.04584">
+      <Data>
+        <int>418411</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.4093361" T2="45.04584">
+      <Data>
+        <int>398387</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.37058" T2="45.05604">
+      <Data>
+        <int>387185</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.37058" T2="45.05604">
+      <Data>
+        <int>379755</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00096" U="15008" I="145.61" T1="59.37058" T2="45.05604">
+      <Data>
+        <int>396807</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="146.35" T1="59.48074" T2="45.05808">
+      <Data>
+        <int>454238</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="146.35" T1="59.48074" T2="45.05808">
+      <Data>
+        <int>557074</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4379" T2="45.05196">
+      <Data>
+        <int>697723</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4379" T2="45.05196">
+      <Data>
+        <int>834011</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4379" T2="45.05196">
+      <Data>
+        <int>947570</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3399773" T2="45.04584">
+      <Data>
+        <int>986074</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3399773" T2="45.04584">
+      <Data>
+        <int>946177</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3399773" T2="45.04584">
+      <Data>
+        <int>854742</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3624153" T2="45.04992">
+      <Data>
+        <int>749948</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3624153" T2="45.04992">
+      <Data>
+        <int>654323</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.3624153" T2="45.04992">
+      <Data>
+        <int>577944</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.46034" T2="45.05604">
+      <Data>
+        <int>522787</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.46034" T2="45.05604">
+      <Data>
+        <int>481384</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.42158" T2="45.04992">
+      <Data>
+        <int>445963</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.42158" T2="45.04992">
+      <Data>
+        <int>410653</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.42158" T2="45.04992">
+      <Data>
+        <int>385874</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4277" T2="45.04176">
+      <Data>
+        <int>365339</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4277" T2="45.04176">
+      <Data>
+        <int>346387</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4277" T2="45.04176">
+      <Data>
+        <int>338946</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4583" T2="45.04584">
+      <Data>
+        <int>328714</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4583" T2="45.04584">
+      <Data>
+        <int>324668</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.39506" T2="45.05196">
+      <Data>
+        <int>329700</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.39506" T2="45.05196">
+      <Data>
+        <int>364723</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.39506" T2="45.05196">
+      <Data>
+        <int>445422</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4277" T2="45.05196">
+      <Data>
+        <int>618073</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4277" T2="45.05196">
+      <Data>
+        <int>832788</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4277" T2="45.05196">
+      <Data>
+        <int>1033677</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4419746" T2="45.03972">
+      <Data>
+        <int>1195279</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4419746" T2="45.03972">
+      <Data>
+        <int>1233623</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4419746" T2="45.03972">
+      <Data>
+        <int>1178107</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="145.61" T1="59.4419746" T2="45.03972">
+      <Data>
+        <int>1035563</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>880890</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>736362</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>626093</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>547703</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>482236</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>429375</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>385153</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>354378</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>329201</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>304915</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>292912</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>273810</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.4256554" T2="45.04992">
+      <Data>
+        <int>265921</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>247568</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>241664</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>232566</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>227768</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>218848</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>220767</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>211277</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>203565</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>203043</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>201919</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>198178</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>194856</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.0030022" U="15008" I="144.87" T1="59.39506" T2="45.03972">
+      <Data>
+        <int>192027</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>192281</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>187867</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>185063</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>180857</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>176084</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>175551</int>
+        </Data>
+    </Point>
+    <Point C0="1" Img="1" t="45.00504" U="15008" I="144.87" T1="59.39506" T2="45.03768">
+      <Data>
+        <int>173845</int>
+        </Data>
+    </Point>
+  </Data>
+</RawDocument>
