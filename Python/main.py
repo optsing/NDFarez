@@ -266,7 +266,50 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
         canvas_standard.draw()
 
     def show_standard_table() -> None:
-        pass
+        root = tk.Toplevel()
+        root.title(f"Стандарт длин: {title}")
+        root.geometry("1200x800")
+        root.rowconfigure(0, weight=1)
+        root.rowconfigure(1, weight=1)
+        root.columnconfigure(0, weight=1)
+        fig, ax = subplots()
+        ax.scatter(sizes, peak, label="Исходные данные", color='blue')
+
+        # Подгонка полинома 4-й степени
+        p = np.polyfit(sizes, peak, 4)
+        liz_fit = np.linspace(np.min(sizes), np.max(sizes), 100)
+        locs_fit = np.polyval(p, liz_fit)
+
+        ax.plot(liz_fit, locs_fit, 'r-', linewidth=2, label="Подгонка полинома")
+        ax.set_xlabel("Длина фрагментов, пн")
+        ax.set_ylabel("Время выхода, с")
+        ax.set_title("Калибровочная кривая")
+        ax.grid(True)
+        ax.legend()
+
+        # Embed the plot into Tkinter
+        canvas = FigureCanvasTkAgg(fig, master=root)
+        canvas.get_tk_widget().grid(row=0, column=0, sticky=tk.NSEW)
+        canvas.draw()
+
+        columns = ("Длина фрагментов, пн", "Концентрация, нг/мкл", "Молярность, нмоль/л", "Время выхода, с", "Площадь * 10^7")
+        tree = ttk.Treeview(root, columns=columns, show='headings')
+
+        for col in columns:
+            tree.heading(col, text=col)
+            tree.column(col, anchor=tk.CENTER)
+
+        # Round data and insert into table
+        for i in range(len(sizes)):
+            tree.insert('', tk.END, values=[
+                format_value(np.round(sizes[i])),
+                format_value(concentrations[i]),
+                format_value(SD_molarity[i]),
+                format_value(np.round(peak[i])),
+                format_value(np.round(led_area[i] * 100) / 100)
+            ])
+
+        tree.grid(row=1, column=0, sticky=tk.NSEW)
 
     tk.Button(root, text="Отчет", font=("Arial", 14, "bold"), command=show_standard_table).grid(row=2, column=1, padx=(4, 4), pady=(4, 4), sticky=tk.E)
 
@@ -359,17 +402,6 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
             messagebox.showerror('Ошибка', 'Нет данных для выбранной библиотеки.')
             return
 
-        def format_value(x):
-            if x % 1 == 0:
-                return f"{int(x)}"
-            elif round(x * 10) == x * 10:
-                return f"{x:.1f}"
-            else:
-                return f"{x:.2f}"
-
-        data1 = list(zip(peaks_corr, area_corr, molarity, library_peaks, gl_areas))
-        formatted_data1 = [[format_value(value) for value in row] for row in data1]
-
         columns1 = ("Длина фрагментов, пн", "Концентрация, нг/мкл", "Молярность, нмоль/л", "Время выхода, с", "Площадь * 10^7")
 
         tree1 = ttk.Treeview(root, columns=columns1, show="headings")
@@ -380,8 +412,14 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
             tree1.column(col, anchor=tk.CENTER)
 
         # Insert data into the table
-        for row in formatted_data1:
-            tree1.insert("", tk.END, values=row)
+        for i in range(len(peaks_corr)):
+            tree1.insert("", tk.END, values=[
+                format_value(peaks_corr[i]),
+                format_value(area_corr[i]),
+                format_value(molarity[i]),
+                format_value(library_peaks[i]),
+                format_value(gl_areas[i])
+            ])
 
         tree1.grid(row=0, sticky=tk.NSEW)
 
@@ -390,14 +428,6 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
         total_lib_area = np.round(current_result['totalLibArea'] * 100) / 100
         total_lib_conc = np.round(current_result['totalLibConc'] * 100) / 100
         total_lib_molarity = np.round(current_result['totalLibMolarity'] * 100) / 100
-
-        data2 = [
-            format_value(max_lib_peak),
-            format_value(total_lib_conc),
-            format_value(total_lib_molarity),
-            format_value(max_lib_value),
-            format_value(total_lib_area)
-        ]
 
         columns2 = ('Длина максимального фрагмента, пн', 'Концентрация геномной библиотеки, нг/мкл', 'Молярность геномной библиотеки, пмоль/л', 'Время выхода максимального фрагмента, с', 'Площадь геномной библиотеки * 10^7')
 
@@ -408,12 +438,27 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
             tree2.heading(col, text=col)
             tree2.column(col, anchor=tk.CENTER)
 
-        tree2.insert("", tk.END, values=data2)
+        tree2.insert("", tk.END, values=[
+            format_value(max_lib_peak),
+            format_value(total_lib_conc),
+            format_value(total_lib_molarity),
+            format_value(max_lib_value),
+            format_value(total_lib_area)
+        ])
 
     tk.Button(root, text="Отчет", font=("Arial", 14, "bold"), command=show_genlib_table).grid(row=5, column=1, padx=(4, 4), pady=(4, 4), sticky=tk.E)
 
     plot_size_standard()
     plot_genlib()
+
+
+def format_value(x: Any) -> str:
+    if x % 1 == 0:
+        return f"{int(x)}"
+    elif round(x * 10) == x * 10:
+        return f"{x:.1f}"
+    else:
+        return f"{x:.2f}"
 
 
 if __name__ == "__main__":
