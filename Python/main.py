@@ -1,4 +1,4 @@
-from tkinter.filedialog import askopenfiles
+from tkinter.filedialog import askopenfilenames
 from xml.etree import ElementTree
 from xml.etree.ElementTree import Element
 import tkinter as tk
@@ -13,12 +13,12 @@ import numpy as np
 
 
 def analyze_frf_files() -> None:
-    files = askopenfiles(
+    filenames = askopenfilenames(
         title="Выберите файлы .frf",
         filetypes=[("FRF files", "*.frf")],
     )
 
-    if not files:
+    if not filenames:
         print("Файлы не были выбраны.")
         return
 
@@ -32,8 +32,9 @@ def analyze_frf_files() -> None:
     GenLib_titles: list[str] = []
     GenLib_data: list[list[float]] = []
 
-    for file in files:
+    for filename in filenames:
         try:
+            file = open(filename, encoding='utf-8')
             root = ElementTree.parse(file)
             raw_title: str = root.findtext('Title')  # type: ignore
             type_value = root.findtext('Type')
@@ -287,7 +288,6 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
         ax.grid(True)
         ax.legend()
 
-        # Embed the plot into Tkinter
         canvas = FigureCanvasTkAgg(fig, master=root)
         canvas.get_tk_widget().grid(row=0, column=0, sticky=tk.NSEW)
         canvas.draw()
@@ -406,12 +406,10 @@ def show_results(title, genlib_titles, genlib_data, ZrRef, peak, sizes, results,
 
         tree1 = ttk.Treeview(root, columns=columns1, show="headings")
 
-        # Set column headings
         for col in columns1:
             tree1.heading(col, text=col)
             tree1.column(col, anchor=tk.CENTER)
 
-        # Insert data into the table
         for i in range(len(peaks_corr)):
             tree1.insert("", tk.END, values=[
                 format_value(peaks_corr[i]),
